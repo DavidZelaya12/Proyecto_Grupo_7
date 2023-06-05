@@ -157,7 +157,7 @@ public class VentanaRegistraPersona extends javax.swing.JFrame {
 
             Persona persona = new Persona(nombre, documento, nombreUser, contrasena);
 
-            boolean repuesta = ventana.getControlador().agregraPersona(persona);
+            boolean repuesta = ventana.getControlador().agregarPersona(persona);
 
             if (repuesta) {
                 JOptionPane.showMessageDialog(null, "Se registro adecuadamente");
